@@ -4,8 +4,7 @@
   --light-gray: hsl(30, 18%, 87%);
   --wenga-brown: hsl(30, 10%, 34%);
   --dark-charcoal: hsl(24, 5%, 18%);
-  --outfit-font: 'outfit';
-  --young-serif-font: 'young-serif'
+  --dark-raspberry: hsl(332, 51%, 32%);
 }
 
 * {
@@ -15,5 +14,59 @@
 }
 
 body {
-  line-height: 1.6;
+  line-height: 1.4;
+  background-color: var(--eggshell);
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
+
+h1, h2, h3 {
+  font-family: 'outfit', sans-serif;
+}
+
+.container img {
+  max-width: 100%;
+  width: 656px;
+  height: 300px;
+  border-radius: 1rem;
+  margin-bottom: 1.8rem;
+}
+
+.container {
+  width: calc(736px - 80px);
+  background-color: hsl(0,100%,100%);
+  padding: 40px;
+  border-radius: 1.7rem;
+  margin-top: 2rem;
+}
+
+.container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--dark-charcoal);
+}
+
+.preparation {
+  margin-block: 1rem;
+  padding: 28px;
+  background-color: var(--rose-white);
+  border-radius: 0.6rem;
+}
+
+.preparation h3 {
+  margin-bottom: 1rem;
+  color: var(--dark-raspberry);
+}
+
+.preparation li::marker {
+  color: var(--dark-raspberry);
+}
+
+.preparation li {
+  color: var(--wenga-brown);
+  margin: 0 0 0.8rem 1.4rem;
+  padding-left: 1.5rem;
+}
+
