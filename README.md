@@ -35,6 +35,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### What I learned
 
+Right at the start I learned how to work with list items in both ordered and unordered lists. It took me quite a bit of time to figure out how to put more empty space between the marker and the text.
 
 
 ### Continued development
