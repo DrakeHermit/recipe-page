@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
 :root {
   --rose-white: hsl(330, 100%, 98%);
   --eggshell: hsl(30, 54%, 90%);
@@ -6,8 +8,8 @@
   --dark-charcoal: hsl(24, 5%, 18%);
   --dark-raspberry: hsl(332, 51%, 32%);
   --brandy-red: #854632;
-  --margin-li: 0 0 0.8rem 1.4rem;
-  --padding-left: 1.2rem;
+  --margin-li: 0 0 0.5rem 1.4rem;
+  --padding-left: 1rem;
 }
 
 * {
@@ -26,7 +28,8 @@ body {
 }
 
 h1, h2, h3 {
-  font-family: 'outfit', sans-serif;
+  font-family: 'Young Serif', sans-serif;
+  font-weight: 300;
 }
 
 h1, h2 {
@@ -38,12 +41,29 @@ h2 {
   font-size: 1.75rem;
 }
 
+strong {
+  font-weight: 900;
+}
+
 hr {
   margin-block: 2rem;
 }
 
-li, td {
+li {
   color: var(--wenga-brown);
+}
+
+.wengaBrown {
+  color: var(--wenga-brown);
+}
+
+.brandyRed {
+  color: var(--brandy-red);
+}
+
+ol > li::marker {
+  font-weight: bolder;
+  font-size: 1.1rem;
 }
 
 .container img {
@@ -88,9 +108,30 @@ li, td {
   padding-left: var(--padding-left);
 }
 
-.ingredients li {
+.ingredients li,
+.instructions li {
   color: var(--brandy-red);
   margin: var(--margin-li);
-  padding-left: var(--padding-left)
+  padding-left: var(--padding-left);
 }
+
+.nutrition p {
+  margin-bottom: 1rem;
+  color: var(--wenga-brown);
+}
+
+.nutrition table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.nutrition td {
+  border-bottom: 1px solid #E3DDD7;
+  padding: 0.8rem 0 0.8rem 2rem;
+}
+
+.nutrition tr:nth-last-child(-n+1) td {
+  border: none;
+}
+
 
