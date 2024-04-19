@@ -18,14 +18,16 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](/assets/images/screenshot.png)
 
 ### Links
 
 - Solution URL: [GitHub](https://github.com/DrakeHermit/recipe-page)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live URL](https://cheerful-zabaione-a129de.netlify.app/)
 
 ## My process
+
+First I started with getting the whole markup done in HTML and after that I moved onto making it look good with CSS.
 
 ### Built with
 
@@ -36,9 +38,12 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### What I learned
 
 Right at the start I learned how to work with list items in both ordered and unordered lists. It took me quite a bit of time to figure out how to put more empty space between the marker and the text.
+Then I had problems with displaying a border after each row, after I finally managed to solve that I couldn't figure out how not to display the border after the last row.
 
 
 ### Continued development
+
+I need to work on my CSS skills even more, doing this challenge made me realize how bad I am with styling list items and table contents, at the end of the day I managed to get it to work the way I wanted it to work but it took me a bit longer than I originally planned.
 
 ## Author
 
