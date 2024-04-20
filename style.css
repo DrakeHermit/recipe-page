@@ -47,6 +47,7 @@ strong {
 
 hr {
   margin-block: 2rem;
+  color: #E3DDD7;
 }
 
 li {
@@ -133,5 +134,25 @@ ol > li::marker {
 .nutrition tr:nth-last-child(-n+1) td {
   border: none;
 }
+
+@media screen and (max-width: 380px ){
+  .container {
+    margin-block: 0;
+    padding: 0 2rem 0 2rem;
+    border-radius: 0;
+  }
+  .container h1 {
+    font-size: 2rem;
+  }
+  .container img {
+    width: 375px;
+    height: 171px;
+    border-radius: 0;
+  }
+  .nutrition{
+    margin-bottom: 1rem;
+  }
+}
+  
 
 
