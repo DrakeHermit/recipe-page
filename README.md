@@ -23,7 +23,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Links
 
 - Solution URL: [GitHub](https://github.com/DrakeHermit/recipe-page)
-- Live Site URL: [Live URL](https://cheerful-zabaione-a129de.netlify.app/)
+- Live Site URL: [Live URL](https://shiny-mooncake-def5a6.netlify.app/)
+)
 
 ## My process
 
