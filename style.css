@@ -135,7 +135,7 @@ ol > li::marker {
   border: none;
 }
 
-@media screen and (max-width: 380px ){
+@media screen and (max-width: 430px ){
   .container {
     margin-block: 0;
     padding: 0 2rem 0 2rem;
@@ -151,8 +151,8 @@ ol > li::marker {
     position: absolute;
     top: 0;
     left: 0;
-    width: 375px;
-    height: 171px;
+    width: 430px;
+    height: 180px;
     border-radius: 0;
     filter: brightness(0.8);
     object-fit: cover;
