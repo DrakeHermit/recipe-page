@@ -140,17 +140,25 @@ ol > li::marker {
     margin-block: 0;
     padding: 0 2rem 0 2rem;
     border-radius: 0;
+    position: relative;
   }
   .container h1 {
-    font-size: 2rem;
+    font-size: 2em;
+    font-weight: 600;
+    margin-top: 12.5rem;
   }
   .container img {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 375px;
     height: 171px;
     border-radius: 0;
+    filter: brightness(0.8);
+    object-fit: cover;
   }
   .nutrition{
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
 }
   
